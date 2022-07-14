@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+
+while True:
+    d1a = input("What is your gender: \n A) Male. B) Female. C)Other. [A/B/C]? : ")
+    
+    break
