@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-while True:
-    d1a = input("What is your gender: \n A) Male. B) Female. C)Other. [A/B/C]? : ")
-    
-    break
+maximum = int(input(" Please Enter any Maximum Value : "))
+
+for number in range(1, maximum + 1):
+    if (number % 2 != 0):
+        print("{0}".format(number))
